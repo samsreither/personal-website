@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.header__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.header__social-icon {
+    height: 30px;
+    width: 30px;
+}

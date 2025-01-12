@@ -1,0 +1,17 @@
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-icon {
+    width: 30px;
+    height: 30px;
+}
