@@ -2,12 +2,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #FAF0E6;
 }
 
 .header__nav-list {
     display: flex;
     list-style: none;
     gap: 30px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.header__nav-link:hover {
+    color: #007bff;
+    transform: scale(1.1);
 }
 
 .header__socials {

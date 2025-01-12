@@ -56,6 +56,8 @@
     overflow: hidden;
     background-color: #fff; /* Card background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    text-decoration: none;
+    color: inherit;
 }
 
 .main__latest-cards-card:hover {

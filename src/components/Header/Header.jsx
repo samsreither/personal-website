@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
-
 import goodreadsIcon from "../../assets/goodreads-icon.png";
 import githubIcon from "../../assets/github-icon.svg";
 import linkedInIcon from "../../assets/linkedin-icon.svg";
@@ -11,10 +10,14 @@ function Header() {
       <div className="header__logo">SR</div>
       <nav className="header__nav">
         <ul className="header__nav-list">
-          <li className="header__nav-element">about</li>
+          <li className="header__nav-element">
+            <Link to="/about" className="header__nav-link">about</Link>
+          </li>
           <li className="header__nav-element">projects</li>
           <li className="header__nav-element">ideas</li>
-          <li className="header__nav-element">blog</li>
+          <li className="header__nav-element">
+            <Link to="/blog" className="header__nav-link">blog</Link>
+          </li>
         </ul>
       </nav>
       <div className="header__socials">

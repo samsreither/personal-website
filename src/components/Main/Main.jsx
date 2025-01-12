@@ -22,23 +22,23 @@ function Main() {
             -- some of my latest work --
         </h2>
         <div className="main__latest-cards">
-            <div className="main__latest-cards-card">
+            <a className="main__latest-cards-card" href="https://samr.crabdance.com/" target="_blank">
                 <img src={wtwr} alt="what-to-wear" className="main__latest-cards-card-image" />
                 <h3 className="main__latest-cards-card-text">What to Wear</h3>
                 <p className="main__latest-cards-card-desc">React, Nodejs, Express, Google Cloud<br/>User Login/Registration<br/>MongoDB for Data Storage
                 </p>
 
-            </div>
-            <div className="main__latest-cards-card">
+            </a>
+            <a className="main__latest-cards-card">
                 <img src="" alt="" className="main__latest-cards-card-image" />
                 <h3 className="main__latest-cards-card-text">News Explorer</h3>
                 <p className="main__latest-cards-card-desc">React, Nodejs, Express, Google Cloud</p>
-            </div>
-            <div className="main__latest-cards-card">
+            </a>
+            <a className="main__latest-cards-card" href="https://samsreither.github.io/se_project_spots" target="_blank">
                 <img src={spots} alt="" className="main__latest-cards-card-image" />
                 <h3 className="main__latest-cards-card-text">Spots</h3>
                 <p className="main__latest-cards-card-desc">Javascript, HTML, CSS</p>
-            </div>
+            </a>
         </div>
       </div>
     </div>
